@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_names">
+
+    <fragment
+        android:id="@+id/navigation_names"
+        android:name="kg.vohkysan.home_work7_5_1.ui.fragments.names.NamesFragment"
+        android:label="Names"
+        tools:layout="@layout/fragment_names" />
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="kg.vohkysan.home_work7_5_1.ui.fragments.calculator.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+</navigation>
